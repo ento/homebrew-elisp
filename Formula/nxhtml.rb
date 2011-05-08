@@ -6,7 +6,7 @@ class Nxhtml < Formula
   md5 '26bfe125c38801246aeb64df00541efa'
 
   def install
-    @nxhtml_path = "share/emacs/nxhtml"
+    @nxhtml_path = "share/emacs/site-lisp/nxhtml"
     nxhtml_dir = prefix + @nxhtml_path
     nxhtml_dir.install Dir['*']
   end
