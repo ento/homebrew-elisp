@@ -37,7 +37,7 @@ class Ddskk <Formula
   end
 
   def install
-    @site_lisp_path = "share/emacs/site-lisp"
+    @site_lisp_path = "/share/emacs/site-lisp"
     @install_dir = "#{HOMEBREW_PREFIX}#{@site_lisp_path}/skk"
 
     open("SKK-CFG", 'a'){|f|
