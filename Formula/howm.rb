@@ -6,7 +6,7 @@ require 'formula'
 class Howm <Formula
   url 'http://howm.sourceforge.jp/a/howm-1.3.9.1.tar.gz'
   homepage 'http://howm.sourceforge.jp/'
-  md5 '61930f92c4ae2a956dc3cf95e60aa91e'
+  sha256 'fffe9f58bd77b9268c436a329f29981896fa528b6e76c1f5f1594df340ec0fce'
 
   def install
     @site_lisp_path = "/share/emacs/site-lisp"
