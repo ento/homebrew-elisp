@@ -3,7 +3,7 @@ require 'formula'
 class Ddskk <Formula
   url 'http://openlab.ring.gr.jp/skk/maintrunk/ddskk-14.3.tar.gz'
   homepage 'http://openlab.ring.gr.jp/skk/index-j.html'
-  md5 'af8aab148acc9c3861b9f0faba6fe9c8'
+  sha256 '8e8d8b3d3de0dea664bf252b79e3c739b4a48addb57de61ce7c4cb0133694c39'
 
   depends_on 'apel'
 
